@@ -3,12 +3,20 @@ title: Contact
 sections:
   - type: hero_section
     title: Contact Me
-    subtitle: >-
-      Fill out the form below and I will get in touch within 1 business day.
+    subtitle: Fill out the form below and I will get in touch within 1 business day.
     align: center
     padding_top: medium
     padding_bottom: medium
     background_color: none
+    actions:
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
   - type: form_section
     content: >-
       ## Pricing
@@ -67,20 +75,20 @@ seo:
   title: Contact
   description: This is the contact page
   extra:
-    - name: og:type
+    - name: 'og:type'
       value: website
       keyName: property
-    - name: og:title
+    - name: 'og:title'
       value: Contact
       keyName: property
-    - name: og:description
+    - name: 'og:description'
       value: This is the contact page
       keyName: property
-    - name: twitter:card
+    - name: 'twitter:card'
       value: summary
-    - name: twitter:title
+    - name: 'twitter:title'
       value: Contact
-    - name: twitter:description
+    - name: 'twitter:description'
       value: This is the contact page
 layout: advanced
 ---
